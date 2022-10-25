@@ -1,0 +1,26 @@
+@import './../../assets/colors';
+
+.header-container {
+    .header {
+        padding: 20px;
+        background: $blackLight;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        h1{
+            font-size: 16px;
+            color: $white;
+        }
+    }
+    .btn {
+        &--admin {
+            background-color: $btnAdmin;
+            
+            &:hover {
+                background-color: $btnAdminHover;
+            }
+        }
+    }
+}
