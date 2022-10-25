@@ -1,11 +1,12 @@
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from '../../components/header';
+import Panel from '../../components/panel';
 const Admin = () => {
     return (
         <div>
             <Header title={'Admin'}/>
+            <Panel/>
         </div>
     );
-}
+};
+
 export default Admin;

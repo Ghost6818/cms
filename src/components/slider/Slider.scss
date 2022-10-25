@@ -1,0 +1,28 @@
+@import './../../assets/colors';
+
+.slider-cointainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    .slider-element {
+        margin: 15px;
+
+        img {
+            max-width: 205px;
+            width: 100%;
+            border-radius: 5px;
+            max-height: 85px;
+        }
+    } 
+
+    p {
+        margin-left: 15px;
+    }
+}
+
+.new-element {
+    margin: 10px;
+    width: 125px;
+    height: 85px;
+    border-radius: 10px;
+}

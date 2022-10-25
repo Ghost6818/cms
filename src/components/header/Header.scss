@@ -3,17 +3,16 @@
 .header-container {
     .header {
         padding: 20px;
-        background: $blackLight;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
 
         h1{
             font-size: 16px;
             color: $white;
         }
     }
+
     .btn {
         &--admin {
             background-color: $btnAdmin;
@@ -22,5 +21,14 @@
                 background-color: $btnAdminHover;
             }
         }
+    }
+
+    .header-background {
+        background: url(../../../public/backgraund_foto.jpg);
+        background-size: contain;
+    }
+    
+    .header-background-none {
+        background: $footer-background-color;
     }
 }

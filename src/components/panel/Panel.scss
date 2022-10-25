@@ -1,0 +1,38 @@
+@import './../../assets/colors';
+
+.panel-conatiner {
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+
+    h2 {
+        color: $color-primary;
+    }
+
+    ul li {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-right: 10px;
+            width: 100px;
+        }
+        
+        input {
+            margin-right: 10px;
+            width: 100px;
+            height: 20px;
+            border: 1px solid $gryLight;
+            border-radius: 2px;
+        }
+
+        input[type='checkbox'] {
+            margin: 0px;
+            width: 17px;
+            height: 17px;
+            border-radius: 0;
+            border: 2px solid $gryLight;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import './../../assets/colors';
+
+.footer-cointainer {
+    background-color: $footer-background-color;
+    color: $footer-text-color;
+    padding: 20px;
+    height: 40px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
